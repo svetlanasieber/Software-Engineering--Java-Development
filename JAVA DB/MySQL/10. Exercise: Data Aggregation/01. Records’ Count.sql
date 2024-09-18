@@ -1,0 +1,1 @@
+SELECT count(`id`) AS `count` FROM `wizzard_deposits`;
