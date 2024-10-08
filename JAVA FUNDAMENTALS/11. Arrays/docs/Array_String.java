@@ -2,7 +2,7 @@ package Arrays_Lab;
 
 public class Array_String {
     public static void main(String[] args) {
-        String[] names = new String[10];
+        String[] names = new String[10]; //[null, null, null, null, null, null, null, null, null, null] -> default value 
         names[0] = "Desi";
         names[1] = "Ivan";
         names[2] = "Miroslav";
