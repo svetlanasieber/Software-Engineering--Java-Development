@@ -10,7 +10,7 @@ public class MainLab {
         names[2] = "Gosho";
         names[3] = "Ivan";
         names[4] = "Raja";
-        print(names);
+        //print(names);
 
         //B: Varargs = позволява ни да подаваме стойности (от 0 до n)
         //print();
