@@ -12,19 +12,27 @@ public class MainLab {
         names[4] = "Raja";
         print(names);
 
-        //B: Varargs
+        //B: Varargs = позволява ни да подаваме стойности (от 0 до n)
         //print();
-        print("Vik", "Ivan", "Gosho", "Ivan", "Raja");
+        // Правила:
+        // 1. Имаме право само на 1 varargs аргумент
+        // 2. Тип varargs се ползва само за аргументи на методи
+        // НЕ МОЖЕ String... books = "Harry Potter", "Hobbit";
+        // 3. Тип varargs аргумент се слага последен в сигнатурата на метода
+
+        print("Bulgaria", "Ivan", "Gosho", "Ivan", "Raja");
+        print("Bulgaria", "Desi");
+        print("Bulgaria");
     }
 
 
-    private static void print(String... names) {
-        // this Varargs parameter works like Array
+    private static void print(String country, String... names) {
+        // този varargs параметър ще работи като масив
 
-        System.out.println(names[0]);
+        //System.out.println(names[0]);
 
 
-        for (String name : names) {
+        for (String name : firstNames) {
             System.out.println(name);
         }
     }
