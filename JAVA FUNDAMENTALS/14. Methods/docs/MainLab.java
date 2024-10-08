@@ -8,6 +8,7 @@ public class MainLab {
         names[1] = "Desi";
         names[2] = "Gosho";
         names[3] = "Ivan";
+        names[4] = "Raja";
         print(names);
     }
 
