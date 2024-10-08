@@ -1,4 +1,4 @@
-package Methods_Lab;
+package L09_Iterators_and_Comparators;
 
 public class MainLab {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class MainLab {
 
 
     private static void print(String... names) {
-        // this varargs works like a Array
+        // this Varargs parameter works like Array
 
         System.out.println(names[0]);
 
