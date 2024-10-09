@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class P02_Nums1To10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println(1);
         System.out.println(2);
         System.out.println(3);
