@@ -1,8 +1,6 @@
-package L01_FirstStepsInCoding;
-
 import java.util.Scanner;
 
-public class P03_RectangleArea {
+public class RectangleArea_03 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
